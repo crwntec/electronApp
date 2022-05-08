@@ -10,7 +10,7 @@ const createWindow = (w, h) => {
       contextIsolation: false,
     },
   });
-  win.loadFile(path.join(__dirname, 'src/index.html'));
+  win.loadFile(path.join(__dirname, 'index.html'));
   win.removeMenu();
 };
 
